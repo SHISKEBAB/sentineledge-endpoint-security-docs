@@ -1,0 +1,39 @@
+site_name: SentinelEdge Documentation
+site_description: Security product documentation and technical writing portfolio
+site_author: Shishir Shreedhar Tambe
+
+repo_name: sentineledge-endpoint-security-docs
+repo_url: https://github.com/SHISKEBAB/sentineledge-endpoint-security-docs
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.suggest
+
+nav:
+  - Home: index.md
+  - About:
+      - About This Project: about.md
+  - Articles:
+      - Articles Index: articles/index.md
+      - Article 01 - Endpoint Security: articles/01-endpoint-security.md
+      - Article 02 - Antivirus vs EDR vs XDR: articles/02-antivirus-edr-xdr.md
+  - Product Documentation:
+      - Overview: product/overview.md
+      - Installation & Setup: product/installation.md
+      - Endpoint Protection: product/endpoint-protection.md
+      - Exploit Protection: product/exploit-protection.md
+      - Ransomware Protection: product/ransomware-protection.md
+  - Alerts & Monitoring:
+      - Alert Overview: alerts/index.md
+      - Alert Severity Levels: alerts/alert-severity.md
+  - Release Notes:
+      - All Releases: release-notes/index.md
+markdown_extensions: 
+  - admonition
