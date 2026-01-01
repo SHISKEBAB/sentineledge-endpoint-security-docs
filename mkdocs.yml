@@ -19,21 +19,9 @@ theme:
 nav:
   - Home: docs/index.md
   - About:
-      - About This Project: about.md
+      - About This Project: docs/about/project.md
   - Articles:
-      - Articles Index: articles/index.md
-      - Article 01 - Endpoint Security: articles/01-endpoint-security.md
-      - Article 02 - Antivirus vs EDR vs XDR: articles/02-antivirus-edr-xdr.md
-  - Product Documentation:
-      - Overview: product/overview.md
-      - Installation & Setup: product/installation.md
-      - Endpoint Protection: product/endpoint-protection.md
-      - Exploit Protection: product/exploit-protection.md
-      - Ransomware Protection: product/ransomware-protection.md
-  - Alerts & Monitoring:
-      - Alert Overview: alerts/index.md
-      - Alert Severity Levels: alerts/alert-severity.md
-  - Release Notes:
-      - All Releases: release-notes/index.md
+      - Article 01 - Endpoint Security: docs/articles/2026/Group 1- Security Fundamentals/What is Endpoint Security & Why it matters.md
+      - Article 02 - Antivirus vs EDR vs XDR: docs/articles/2026/Group 1- Security Fundamentals/Difference between Antivirus, EDR, and XDR.md
 markdown_extensions: 
   - admonition
